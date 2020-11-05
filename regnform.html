@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Registration Page</title>
+	</head>
+	<body>
+	 
+	 <div style="width:60%;margin: auto; border: 5px solid; padding: 10px;background-color: pink">
+	  	<h1 style="text-align: center">Registration Form</h1> <hr  /><br /><br />
+	    <form action="final.html">
+
+		<b>Name: </b> 
+			<input type="text" placeholder="Name" required /> <br /><br />
+
+
+		<b>Gender:</b><br />
+	    Male:   <input type="radio" value="male" name="gender" /><br />
+	  	Female: <input type="radio" value="female" name="gender" /><br />
+	  	Others: <input type="radio" value="others" name="gender" /><br /><br />
+
+	  	<b>Email:</b>	
+	  		<input type="email" placeholder="Email Address" required /><br /><br />
+
+	  	<b>Date of Birth:</b>
+	  		 <input type="date" /><br /><br />
+
+		<b>Password:</b>
+			<input type="password" placeholder="Password" /><br /><br />
+	
+	  	<b>Address:</b> <br />  
+			<textarea cols="50" rows="5" value="address">  
+			</textarea>  <br /> <br /> 
+
+
+
+	  	<b>Programme: </b>
+
+	  	<input type="text" list="programmes" />
+	  	<datalist id="programmes">
+		<option value="Computer Science"> 
+		<option value="Physics">
+		<option value="Chemistry"> 
+		<option value="Mathematics"> 
+		<option value="Statistics"> 
+		</datalist><br /><br />
+
+
+
+	  	<b>University: </b>
+
+	  	<select>  
+		<option value="University">-</option> 
+		<option value="Kannur University">Kannur University</option> 
+		<option value="University of Calicut">University of Calicut</option> 
+		<option value="MG University">MG University</option> 
+		<option value="Kerala University">Kerala University</option>  
+		</select><br /><br />
+	 
+
+	  	<b>Languages Known:</b><br />
+	    Malayalam:  <input type="checkbox" value="Malayalam" checked /><br />
+	    English:  <input type="checkbox" value="English" checked /><br />
+	  	Hindi       <input type="checkbox" value="Hindi"  /><br /><br />
+
+	 
+		<input type="submit" value="Submit" /><br /> <br /> 
+
+	  </form>
+	  </div>
+	</body>
+</html>
